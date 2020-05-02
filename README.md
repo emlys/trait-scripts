@@ -7,6 +7,7 @@ Rows were grouped into connected components by depth-first search, where rows A 
 - A['Accepted Symbol'] == B['Accepted Symbol']
 - A['Synonym Symbol'] == B['Accepted Symbol']
 - A['Scientific Name'] == B['Scientific Name'],
+
 meaning that A and B represent the same species. For each species, data from all rows was merged to fill in as many columns as possible, and a symbol assigned to that species.
 
 `binomial_to_symbol.csv` maps Latin binomials to species symbols. `symbol_to_data.csv` maps species symbols to the merged data for that species.
